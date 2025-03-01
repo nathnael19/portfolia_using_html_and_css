@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #333;
+    text-align: center;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* Header */
+header {
+    background-color: #222;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 1.2rem;
+    opacity: 0.8;
+}
+
+/* Hero Section */
+.hero {
+    background: url('1.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 120px 20px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.hero h2 {
+    font-size: 2.8rem;
+}
+
+.hero p {
+    font-size: 1.3rem;
+    margin-bottom: 25px;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    background: #ff6b6b;
+    padding: 14px 28px;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background: #e63946;
+    transform: scale(1.05);
+}
+
+/* About Section */
+.about {
+    padding: 80px 20px;
+    background: linear-gradient(to right, #f8f9fa, #e3e6eb);
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Projects Section */
+.projects {
+    padding: 60px 20px;
+}
+
+.projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    transition: all 0.3s ease-in-out;
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.project-card h3 {
+    margin: 10px 0 5px;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Contact Section */
+.contact {
+    background: #222;
+    color: white;
+    padding: 60px 20px;
+}
+
+.contact p {
+    font-size: 1.2rem;
+    margin: 5px 0;
+}
+
+/* Footer */
+footer {
+    background: #111;
+    color: white;
+    padding: 15px 0;
+    font-size: 0.9rem;
+}
