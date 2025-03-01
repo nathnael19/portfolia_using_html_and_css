@@ -13,8 +13,8 @@ body {
 
 /* Container */
 .container {
-    width: 90%;
-    max-width: 1100px;
+    width: 85%;
+    max-width: 950px;
     margin: auto;
 }
 
