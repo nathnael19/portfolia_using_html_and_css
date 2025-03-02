@@ -163,6 +163,11 @@ header p {
     padding: 60px 20px;
 }
 
+.socialMedia:hover {
+    scale: 1.1;
+    color: red;
+}
+
 .contact p {
     font-size: 1.2rem;
     margin: 5px 0;
