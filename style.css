@@ -165,7 +165,8 @@ header p {
 
 .socialMedia:hover {
     scale: 1.1;
-    color: red;
+    background: rgb(84, 88, 80);
+    border-radius: 20px;
 }
 
 .contact p {
